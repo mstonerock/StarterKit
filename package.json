@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "JavaScript development starter kit - mstonerock",
   "scripts": {
-    
+			"prestart": "node builScripts/startMessage.js",
+    "start": "node buildScripts/srcServer.js"
   },
   "author": "Michael Stonerock",
   "license": "MIT",
